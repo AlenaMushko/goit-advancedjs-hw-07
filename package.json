@@ -5,7 +5,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "1": "tsx src/1.ts",
+    "2": "tsx src/2.ts",
+    "3": "tsx src/3.ts",
+    "4": "tsx src/4.ts",
+    "start:1": "tsx src/1.ts",
+    "start:2": "tsx src/2.ts",
+    "start:3": "tsx src/3.ts",
+    "start:4": "tsx src/4.ts"
+  },
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
   }
 }
